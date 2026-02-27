@@ -1,0 +1,141 @@
+704 INFO: PyInstaller: 6.18.0, contrib hooks: 2026.0
+707 INFO: Python: 3.12.2
+850 INFO: Platform: Windows-11-10.0.26200-SP0
+851 INFO: Python environment: E:\python
+856 INFO: Removing temporary files and cleaning cache in C:\Users\80784\AppData\Local\pyinstaller
+3790 INFO: Module search paths (PYTHONPATH):
+['E:\\python\\Scripts\\pyinstaller.exe',
+ 'E:\\python\\python312.zip',
+ 'E:\\python\\DLLs',
+ 'E:\\python\\Lib',
+ 'E:\\python',
+ 'E:\\python\\Lib\\site-packages',
+ 'E:\\python\\Lib\\site-packages\\win32',
+ 'E:\\python\\Lib\\site-packages\\win32\\lib',
+ 'E:\\python\\Lib\\site-packages\\Pythonwin',
+ 'D:\\代码\\gold_view']
+5174 INFO: Appending 'datas' from .spec
+5178 INFO: checking Analysis
+5179 INFO: Building Analysis because Analysis-00.toc is non existent
+5179 INFO: Looking for Python shared library...
+5179 INFO: Using Python shared library: E:\python\python312.dll
+5179 INFO: Running Analysis Analysis-00.toc
+5179 INFO: Target bytecode optimization level: 0
+5179 INFO: Initializing module dependency graph...
+5184 INFO: Initializing module graph hook caches...
+5251 INFO: Analyzing modules for base_library.zip ...
+9636 INFO: Processing standard module hook 'hook-encodings.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+20738 INFO: Processing standard module hook 'hook-pickle.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+25404 INFO: Processing standard module hook 'hook-heapq.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+27438 INFO: Caching module dependency graph...
+27606 INFO: Analyzing D:\代码\gold_view\main.py
+27903 INFO: Processing standard module hook 'hook-_ctypes.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+27934 INFO: Processing standard module hook 'hook-urllib3.py' from 'E:\\python\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+28641 INFO: Processing pre-safe-import-module hook 'hook-backports.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+28645 INFO: SetuptoolsInfo: initializing cached setuptools info...
+29944 INFO: Setuptools: 'backports' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.backports'!
+29979 INFO: Processing standard module hook 'hook-setuptools.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+30143 INFO: Processing standard module hook 'hook-platform.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+30148 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+30331 INFO: Processing standard module hook 'hook-sysconfig.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+30388 INFO: Processing pre-safe-import-module hook 'hook-jaraco.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+30393 INFO: Setuptools: 'jaraco' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco'!
+30431 INFO: Processing pre-safe-import-module hook 'hook-more_itertools.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+30432 INFO: Setuptools: 'more_itertools' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.more_itertools'!
+30710 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+31254 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+31462 INFO: Processing standard module hook 'hook-xml.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+33268 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+33640 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.text.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+33641 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+34695 INFO: Processing pre-safe-import-module hook 'hook-importlib_metadata.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+34696 INFO: Setuptools: 'importlib_metadata' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.importlib_metadata'!
+34795 INFO: Processing standard module hook 'hook-setuptools._vendor.importlib_metadata.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+34873 INFO: Processing pre-safe-import-module hook 'hook-zipp.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+34875 INFO: Setuptools: 'zipp' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.zipp'!
+35472 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+35473 INFO: Setuptools: 'tomli' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.tomli'!
+36716 INFO: Processing pre-safe-import-module hook 'hook-wheel.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+36717 INFO: Setuptools: 'wheel' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.wheel'!
+38760 INFO: Processing standard module hook 'hook-charset_normalizer.py' from 'E:\\python\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+39081 INFO: Processing standard module hook 'hook-certifi.py' from 'E:\\python\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+39838 INFO: Processing standard module hook 'hook-pyqtgraph.py' from 'E:\\python\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+1529 WARNING: Failed to collect submodules for 'pyqtgraph.opengl' because importing 'pyqtgraph.opengl' raised: ModuleNotFoundError: No module named 'OpenGL'
+43366 INFO: hook-pyqtgraph: selected 'PyQt6' as the only available Qt bindings.
+43419 INFO: Processing standard module hook 'hook-numpy.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+45039 INFO: Processing standard module hook 'hook-difflib.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+50542 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+50553 INFO: Processing standard module hook 'hook-PyQt6.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+51675 INFO: Processing standard module hook 'hook-PyQt6.QtCore.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+58399 INFO: Processing standard module hook 'hook-PyQt6.QtGui.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+82941 INFO: Processing standard module hook 'hook-PyQt6.QtWidgets.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+89344 INFO: Processing standard module hook 'hook-PyQt6.uic.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+90284 INFO: Processing standard module hook 'hook-PyQt6.QtSvg.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+91065 INFO: Processing standard module hook 'hook-PyQt6.QtOpenGLWidgets.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+92480 INFO: Processing standard module hook 'hook-PyQt6.QtOpenGL.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+93680 INFO: Processing standard module hook 'hook-PyQt6.QtTest.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+96260 INFO: Processing standard module hook 'hook-xml.dom.domreg.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+98828 INFO: Analyzing hidden import 'curl_cffi.cli'
+98832 INFO: Processing module hooks (post-graph stage)...
+99704 INFO: Performing binary vs. data reclassification (253 entries)
+99910 INFO: Looking for ctypes DLLs
+100068 INFO: Analyzing run-time hooks ...
+100079 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+100086 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+100092 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+100096 INFO: Including run-time hook 'pyi_rth_pyqt6.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+100101 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+100105 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks'
+100114 INFO: Including run-time hook 'pyi_rth_pyqtgraph_multiprocess.py' from 'E:\\python\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+100121 INFO: Including run-time hook 'pyi_rth_setuptools.py' from 'E:\\python\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+100166 INFO: Creating base_library.zip...
+100223 INFO: Looking for dynamic libraries
+103244 INFO: Extra DLL search directories (AddDllDirectory): ['E:\\python\\Lib\\site-packages\\PyQt6\\Qt6\\bin', 'E:\\python\\Lib\\site-packages\\numpy.libs']
+103244 INFO: Extra DLL search directories (PATH): ['E:\\python\\Lib\\site-packages\\PyQt6\\Qt6\\bin']
+105153 INFO: Warnings written to D:\代码\gold_view\build\GoldView\warn-GoldView.txt
+105339 INFO: Graph cross-reference written to D:\代码\gold_view\build\GoldView\xref-GoldView.html
+105392 INFO: checking PYZ
+105392 INFO: Building PYZ because PYZ-00.toc is non existent
+105392 INFO: Building PYZ (ZlibArchive) D:\代码\gold_view\build\GoldView\PYZ-00.pyz
+106659 INFO: Building PYZ (ZlibArchive) D:\代码\gold_view\build\GoldView\PYZ-00.pyz completed successfully.
+106694 INFO: checking PKG
+106694 INFO: Building PKG because PKG-00.toc is non existent
+106694 INFO: Building PKG (CArchive) GoldView.pkg
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\python\Scripts\pyinstaller.exe\__main__.py", line 7, in <module>
+  File "E:\python\Lib\site-packages\PyInstaller\__main__.py", line 231, in _console_script_run
+    run()
+  File "E:\python\Lib\site-packages\PyInstaller\__main__.py", line 215, in run
+    run_build(pyi_config, spec_file, **vars(args))
+  File "E:\python\Lib\site-packages\PyInstaller\__main__.py", line 70, in run_build
+    PyInstaller.building.build_main.main(pyi_config, spec_file, **kwargs)
+  File "E:\python\Lib\site-packages\PyInstaller\building\build_main.py", line 1275, in main
+    build(specfile, distpath, workpath, clean_build)
+  File "E:\python\Lib\site-packages\PyInstaller\building\build_main.py", line 1213, in build
+    exec(code, spec_namespace)
+  File "GoldView.spec", line 26, in <module>
+    exe = EXE(
+          ^^^^
+  File "E:\python\Lib\site-packages\PyInstaller\building\api.py", line 656, in __init__
+    self.pkg = PKG(
+               ^^^^
+  File "E:\python\Lib\site-packages\PyInstaller\building\api.py", line 252, in __init__
+    self.__postinit__()
+  File "E:\python\Lib\site-packages\PyInstaller\building\datastruct.py", line 184, in __postinit__
+    self.assemble()
+  File "E:\python\Lib\site-packages\PyInstaller\building\api.py", line 358, in assemble
+    CArchiveWriter(self.name, bootstrap_toc + archive_toc, pylib_name=self.python_lib_name)
+  File "E:\python\Lib\site-packages\PyInstaller\archive\writers.py", line 152, in __init__
+    toc_entry = self._write_entry(fp, entry)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\Lib\site-packages\PyInstaller\archive\writers.py", line 255, in _write_entry
+    return self._write_file(fp, src_name, dest_name, typecode, compress=compress)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\Lib\site-packages\PyInstaller\archive\writers.py", line 275, in _write_file
+    data_length = os.stat(src_name).st_size
+                  ^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。: 'D:\\代码\\gold_view\\build\\GoldView\\base_library.zip'
+
+Process exited with code: 1
